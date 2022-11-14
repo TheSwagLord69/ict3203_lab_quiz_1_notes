@@ -137,6 +137,8 @@ USER jenkins
 RUN jenkins-plugin-cli --plugins "blueocean:1.25.8 docker-workflow:521.v1a_a_dd2073b_2e"
 ```
 
+<kbd><kbd>CTRL</kbd> + S</kbd>
+
 ```bash
 cat Dockerfile
 # if all is good, build the image
