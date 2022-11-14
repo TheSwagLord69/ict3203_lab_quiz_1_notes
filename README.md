@@ -532,7 +532,7 @@ As there are issues opening the html report without downloading, we can right cl
 
 
 ## Suppressing a vulnerability
-If we would want to whitelist/suppress a CVE, we can find the CVE and click `suppress` to the right of the CVE number.
+In 'dependency-check-report.html', If we would want to whitelist/suppress a CVE, we can find the CVE and click `suppress` to the right of the CVE number.
 
 A pop-up would appear. Copy the highlighted text and save it to the file `suppression.xml`. An example of the highlighted text is shown below.
 
