@@ -223,6 +223,13 @@ docker container kill jenkins-blueocean
 docker container rm jenkins-blueocean
 ```
 
+## Fork repo
+```bash
+# on your host's home directory as you have binded /home
+cd ~/
+git clone https://github.com/jenkins-docs/simple-node-js-react-npm-app
+```
+
 ## Creating a Pipeline project
 Click `New Item`, fill in a name, select `Pipeline` and `OK`.
 
@@ -233,13 +240,6 @@ Select `Git` as the `SCM` and input `/home/simple-node-js-react-npm-app` as the 
 **NOTE** Your path for the repository URL may be different but you can assume the path given as above.
 
 **NOTE2** You may need to have the environment variable `JAVA_OPTS` set to `-Dhudson.plugins.git.GitSCM.ALLOW_LOCAL_CHECKOUT=true`. Look at the section `Creating Dockerfile for BlueOcean and building it`.
-
-## Fork repo
-```bash
-# on your host's home directory as you have binded /home
-cd ~/
-git clone https://github.com/jenkins-docs/simple-node-js-react-npm-app
-```
 
 ## Creating Jenkinsfile
 
