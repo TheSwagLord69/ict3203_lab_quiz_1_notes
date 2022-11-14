@@ -133,6 +133,13 @@ cat Dockerfile
 docker build -t myjenkins-blueocean:2.361.3-1 .
 ```
 
+## Fork repo
+```bash
+# on your host's home directory as you have binded /home
+cd ~/
+git clone https://github.com/jenkins-docs/simple-node-js-react-npm-app
+```
+
 ## Running BlueOcean
 ```bash
 docker run \
@@ -200,13 +207,6 @@ docker container kill jenkins-blueocean
 # remove containers (requires the container to be killed)
 # only required if --rm switch is not used to run the container
 docker container rm jenkins-blueocean
-```
-
-## Fork repo
-```bash
-# on your host's home directory as you have binded /home
-cd ~/
-git clone https://github.com/jenkins-docs/simple-node-js-react-npm-app
 ```
 
 ## Creating a Pipeline project
