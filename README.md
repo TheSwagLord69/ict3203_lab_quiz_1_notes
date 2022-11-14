@@ -274,8 +274,10 @@ git add .
 git commit -m "Added Jenkinsfile"
 ```
 
-Add an email for git
+If you get a "Please tell me who you are.", add an email for git
+```bash
 git config --global user.email "you@example.com"
+```
 
 Now, we can return to our Jenkins webpage and click on `Build Now` on our Jenkins job.
 
