@@ -526,7 +526,7 @@ We can see there are 4 vulnerabilities present. You can click on any of the vuln
 
 ## Detailed report
 
-For a more detailed view, we can click on `Workspaces` and selecting the first path on the list.
+For a more detailed view, we can click on `Workspaces` and selecting the first path on the list (`/var/jenkins_home/workspace/owasppipe on built-in`).
 
 As there are issues opening the html report without downloading, we can right click `dependency-check-report.html` and download it. Now, we can open it and the report will be displayed correctly.
 
