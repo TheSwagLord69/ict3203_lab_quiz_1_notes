@@ -730,7 +730,9 @@ Click `Build Now` after making the commit.
 
 The build should be unsuccessful.
 
-Let's navigate to `Test Result` on the menu bar on the left.
+Navigate to the failed build.
+
+Navigate to `Test Result` on the menu bar on the left.
 
 Click into it and we can see there are a total of 1 tests, 0 passed and 1 failed.
 
