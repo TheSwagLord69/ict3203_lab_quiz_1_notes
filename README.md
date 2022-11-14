@@ -74,6 +74,8 @@ sudo docker run hello-world
 sudo usermod -aG docker $USER
 ```
 
+> Now logout and log back in
+
 # Lab X05
 
 Adapted from: `https://www.jenkins.io/doc/tutorials/build-a-node-js-and-react-app-with-npm/`
