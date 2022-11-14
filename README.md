@@ -118,6 +118,7 @@ mkdir blueocean && cd blueocean
 ```
 
 ## Use an editor of your choice and paste the Dockerfile in
+
 ```bash
 nano Dockerfile
 ```
@@ -138,8 +139,11 @@ RUN jenkins-plugin-cli --plugins "blueocean:1.25.8 docker-workflow:521.v1a_a_dd2
 ```
 
 ## For nano
+
 <kbd>CTRL</kbd> + <kbd>S</kbd>
 <kbd>CTRL</kbd> + <kbd>X</kbd>
+
+## Verify Dockerfile
 
 ```bash
 cat Dockerfile
