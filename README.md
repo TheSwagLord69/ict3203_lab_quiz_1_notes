@@ -598,7 +598,7 @@ After the build, you should see less than 4 vulnerabilities.
 
 Adapted from: `https://www.youtube.com/watch?v=68cDNUz7uro` but I don't see why you would want to use YouTube during the lab test.
 
-Assumes that you have the files (jenkins-phpunit-test.zip and jenkins-php-selenium-test.zip) in the host already.
+Assumes that you have the file (jenkins-phpunit-test.zip) in the host already.
 
 Assumes your host is Ubuntu Linux.
 
@@ -742,7 +742,7 @@ This is the expected result.
 
 Adapted from: `https://www.wdb24.com/session-in-php-example-for-login-logout/`
 
-Assumes that you have the files in the host already.
+Assumes that you have the file (jenkins-php-selenium-test.zip) in the host already.
 
 Assumes your host is Ubuntu Linux.
 
