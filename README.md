@@ -178,6 +178,7 @@ docker cp jenkins-blueocean:/tmp/example.txt ./example2.txt
 docker logs jenkins-blueocean
 
 # you can see the admin password for the initial setup
+# May also be viewed at /var/jenkins_home/secrets/initialAdminPassword
 ```
 
 ## Initial setup
