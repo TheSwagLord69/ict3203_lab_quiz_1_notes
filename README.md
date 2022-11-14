@@ -607,6 +607,7 @@ Assumes your host is Ubuntu Linux.
 ```bash
 # to prevent \r\n messing up the deployment.
 # we will standardize and use \n
+cd ~/
 sudo apt install -y dos2unix
 ```
 
