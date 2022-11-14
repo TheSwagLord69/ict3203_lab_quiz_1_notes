@@ -274,6 +274,9 @@ git add .
 git commit -m "Added Jenkinsfile"
 ```
 
+Add an email for git
+git config --global user.email "you@example.com"
+
 Now, we can return to our Jenkins webpage and click on `Build Now` on our Jenkins job.
 
 **Note** if you fail this step, its best to check the `Console Output` of the build instead of checking the console output of the failed step.
