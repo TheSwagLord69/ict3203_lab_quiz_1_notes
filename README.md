@@ -455,6 +455,8 @@ An alert with "Jenkins is going to shut down" should appear at the top of the we
 
 In the event that Jenkins does not restart, you might need to start it again on your own.
 
+After restarting, navigate to http://localhost:8080/ and log into Jenkins.
+
 ## Configuring OWASP Dependency-Check
 
 From `Dashboard`, click `Manage Jenkins` on the menu located on the left of the page.
