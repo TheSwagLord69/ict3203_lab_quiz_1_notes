@@ -892,7 +892,7 @@ From `Dashboard`, click `Manage Jenkins` on the menu located on the left of the 
 
 Under `System Configuration` section, click `Manage Plugins`.
 
-Click on `Available` tab and search for `Warnings Next Generation Plugin`.
+Click on `Available` tab and search for `Warnings Next Generation` Plugin.
 
 Check the box and click `Download now and install after restart`.
 
