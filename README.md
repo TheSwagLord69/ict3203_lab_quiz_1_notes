@@ -117,8 +117,9 @@ cd ~/
 mkdir blueocean && cd blueocean
 ```
 
+## Use an editor of your choice and paste the Dockerfile in
 ```bash
-# use an editor of your choice and paste the Dockerfile in
+nano Dockerfile
 ```
 
 ```
