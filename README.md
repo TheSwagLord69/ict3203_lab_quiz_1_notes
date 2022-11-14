@@ -6,7 +6,7 @@ This guide assumes:
 3. You are running dind instead of passing the docker socket
 4. You are using Linux (this guide was written with Ubuntu 22.04)
 5. The user running all these commands belongs to the docker group (can run docker without sudo)
-6. The result just has to be satisfactory. Any hacks used will be tolerated.
+7. The result just has to be satisfactory. Any hacks used will be tolerated.
 
 # Installing Docker
 
@@ -63,8 +63,15 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 ```
 
 ## Verify that the Docker Engine installation is successful by running the hello-world image:
+
 ```bash
 sudo docker run hello-world
+```
+
+# Add yourself to the docker group
+
+```bash
+sudo usermod -aG docker $USER
 ```
 
 # Lab X05
