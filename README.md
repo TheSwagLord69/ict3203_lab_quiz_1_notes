@@ -561,6 +561,7 @@ But this is not the correct format. So let's add the missing tags as shown below
 </suppressions>
 ```
 
+The `suppression.xml` file can be located anywhere, even on a different server or a remote source repository, as long as it is reachable by the Jenkins server.
 Now that we have a suppression list, we need to update our Jenkinsfile.
 
 ```
