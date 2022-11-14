@@ -445,7 +445,7 @@ From `Dashboard`, click `Manage Jenkins` on the menu located on the left of the 
 
 Under `System Configuration` section, click `Manage Plugins`.
 
-Click on `Available` tab and search for `OWASP Dependency-Check` <kbd>5.2.0<kbd>.
+Click on `Available` tab and search for `OWASP Dependency-Check` <kbd>5.2.0</kbd>.
 
 Check the box and click `Download now and install after restart`.
 
