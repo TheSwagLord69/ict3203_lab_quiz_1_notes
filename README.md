@@ -229,6 +229,11 @@ docker container rm jenkins-blueocean
 cd ~/
 git clone https://github.com/jenkins-docs/simple-node-js-react-npm-app
 ```
+
+## Mount the home directory
+```bash
+docker exec -it jenkins-blueocean sh -c 'ls /home'
+```
 ```bash
 docker exec -it jenkins-blueocean sh -c 'ls /home/simple-node-js-react-npm-app -lah'
 ```
