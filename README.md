@@ -769,7 +769,7 @@ chmod +x jenkins/scripts/*.sh
 
 ### Problems in deploy.sh
 
-Fixing the problems in the `jenkins/script/deploy.sh`. Change it to the below.
+Fixing the problems in the `jenkins/scripts/deploy.sh`. Change it to the below.
 Problems:
 1. It assumes you are using Windows
 2. It wasn't scripted with dind in mind.
