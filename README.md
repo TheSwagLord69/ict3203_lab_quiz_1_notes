@@ -549,8 +549,8 @@ A pop-up would appear. Copy the highlighted text and save it to the file `suppre
 But this is not the correct format. So let's add the missing tags as shown below.
 
 ```xml
-<?xml version="1.0" encoding="UTF-8"?>
-<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+<mark><?xml version="1.0" encoding="UTF-8"?></mark>
+<mark><suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd"></mark>
   <suppress>
     <notes><![CDATA[
     file name: jquery-2.1.4.min.js
@@ -558,7 +558,7 @@ But this is not the correct format. So let's add the missing tags as shown below
     <packageUrl regex="true">^pkg:javascript/jquery@.*$</packageUrl>
     <cve>CVE-2019-11358</cve>
   </suppress>
-</suppressions>
+<mark></suppressions></mark>
 ```
 
 Now that we have a suppression list, we need to update our Jenkinsfile.
