@@ -173,14 +173,14 @@ docker run \
   myjenkins-blueocean:2.361.3-1
 ```
 
-## Executing bash in docker containers
+## Optional: Executing bash in docker containers
 ```bash
 # docker exec -it <CONTAINER_NAME OR ID> <COMMAND>
 # use bash first for a better shell. if it doesn't work, try sh
 docker exec -it jenkins-blueocean bash
 ```
 
-## Copying files between containers and/or host
+## Optional: Copying files between containers and/or host
 ```bash
 # docker cp [<SRC_CONTAINER>:<PATH>] [<DST_CONTAINER>:<PATH>]
 #
