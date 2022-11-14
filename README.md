@@ -137,7 +137,9 @@ USER jenkins
 RUN jenkins-plugin-cli --plugins "blueocean:1.25.8 docker-workflow:521.v1a_a_dd2073b_2e"
 ```
 
-<kbd><kbd>CTRL</kbd> + S</kbd>
+## For nano
+<kbd>CTRL</kbd> + <kbd>S</kbd>
+<kbd>CTRL</kbd> + <kbd>X</kbd>
 
 ```bash
 cat Dockerfile
