@@ -230,7 +230,7 @@ cd ~/
 git clone https://github.com/jenkins-docs/simple-node-js-react-npm-app
 ```
 
-## Mount the home directory
+## Check the repo directory
 ```bash
 docker exec -it jenkins-blueocean sh -c 'ls /home'
 ```
