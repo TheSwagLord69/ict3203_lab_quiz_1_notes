@@ -229,6 +229,9 @@ docker container rm jenkins-blueocean
 cd ~/
 git clone https://github.com/jenkins-docs/simple-node-js-react-npm-app
 ```
+```bash
+docker exec -it jenkins-blueocean sh -c 'ls /home/simple-node-js-react-npm-app -lah'
+```
 
 ## Creating a Pipeline project
 Click `New Item`, fill in a name, select `Pipeline` and `OK`.
