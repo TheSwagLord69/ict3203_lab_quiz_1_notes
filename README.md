@@ -8,6 +8,65 @@ This guide assumes:
 5. The user running all these commands belongs to the docker group (can run docker without sudo)
 6. The result just has to be satisfactory. Any hacks used will be tolerated.
 
+# Installing Docker
+
+Adapted from : `https://docs.docker.com/engine/install/ubuntu/`
+
+## Uninstall old versions
+
+```bash
+sudo apt-get remove docker docker-engine docker.io containerd runc
+```
+
+## Set up the repository
+
+```bash
+sudo apt-get update
+```
+
+```bash
+sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+```
+
+## Add Docker’s official GPG key:
+
+```bash
+sudo mkdir -p /etc/apt/keyrings
+```
+
+```bash
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+```
+
+## Use the following command to set up the repository:
+
+```bash
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+```
+
+## Update the apt package index:
+
+```bash
+sudo apt-get update
+```
+
+## Install Docker Engine, containerd, and Docker Compose. To install the latest version, run:
+
+```bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+```
+
+## Verify that the Docker Engine installation is successful by running the hello-world image:
+```bash
+sudo docker run hello-world
+```
+
 # Lab X05
 
 Adapted from: `https://www.jenkins.io/doc/tutorials/build-a-node-js-and-react-app-with-npm/`
