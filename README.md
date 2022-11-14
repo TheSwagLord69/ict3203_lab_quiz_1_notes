@@ -451,6 +451,8 @@ Check the box and click `Download now and install after restart`.
 
 After the download has been completed, click on `Restart Jenkins when installation is complete and no jobs are running`.
 
+An alert with "Jenkins is going to shut down" should appear at the top of the web page.
+
 In the event that Jenkins does not restart, you might need to start it again on your own.
 
 ## Configuring OWASP Dependency-Check
