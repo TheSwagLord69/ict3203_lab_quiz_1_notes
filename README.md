@@ -74,7 +74,7 @@ sudo docker run hello-world
 sudo usermod -aG docker $USER
 ```
 
-Now logout and log back in
+Now restart the machine
 
 # Lab X05
 
