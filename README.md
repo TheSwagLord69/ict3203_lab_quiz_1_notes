@@ -1043,7 +1043,9 @@ Fill in the `Project display name` as `OWASP` and `Project key` as `OWASP`. Clic
 
 Click `Locally`.
 
-Generate a new token for this project by clicking "Generate". You can change the `Token Name` if you wish to do so.
+You can change the `Token Name` if you wish to do so.
+
+Generate a new token for this project by clicking "Generate". 
 
 Copy the token or paste it on a notepad before clicking `Continue`.
 
@@ -1061,13 +1063,21 @@ Under `Security` section, click on `Manager Credentials`.
 
 Hover over `(global)`, and click `Add credentials`.
 
-Select `Secret text` for `Kind`. Paste your token under `Secret`. It is fine to leave the rest as the defaults.
+Select `Secret text` for `Kind`. Paste your token under `Secret`. 
+
+It is fine to leave the rest as the defaults.
+
+Click `Create`
 
 ### Configuring SonarQube URL
 
+From `Dashboard`, click `Manage Jenkins` on the menu located on the left of the page.
+
 Under `System Configuration` section, click `Configure System`.
 
-Scroll to find the section `SonarQube servers`. Click `Add SonarQube`, put `SonarQube` for the `Name, and the server URL `http://sonarqube:9000`.
+Scroll down to find the section `SonarQube servers`. 
+
+Click `Add SonarQube` button, for the `Name` put `SonarQube`, and the `Server URL` as `http://sonarqube:9000`.
 
 For the `Server authentication token`, click on the dropdown menu and select the first option. It should be `Secret text`.
 
@@ -1079,13 +1089,17 @@ From `Dashboard`, click `Manage Jenkins` on the menu located on the left of the 
 
 Under `System Configuration` section, click on `Global Tool Configuration`.
 
-Scroll down to find the section `SonarQube Scanner` and click `Add SonarQube Scanner`.
+Scroll down to find the section `SonarQube Scanner` and click `Add SonarQube Scanner` button.
 
-Input `SonarQube` under `Name` and change the version to `SonarQube Scanner 4.6.2.2472`, or at least that is the version that is suggested by prof.
+Under `Name` input `SonarQube` and change the `Version` to `SonarQube Scanner 4.6.2.2472`, or at least that is the version that is suggested by prof.
 
 Click `Save`.
 
-## Creating the Jenkinsfile
+## Create the new job on Jenkins
+
+Use either `Lab X05` or `Lab X06` to create the job but we will be using `Pipeline script` instead of `Pipeline script from SCM`. Paste the below Jenkins file into it
+
+## Pasting the Jenkinsfile
 
 ```
 pipeline {
@@ -1115,9 +1129,9 @@ pipeline {
 }
 ```
 
-## Create the new job on Jenkins
+## Build the new job on Jenkins
 
-Use either `Lab X05` or `Lab X06` to create the job but we will be using `Pipeline script` instead of `Pipeline script from SCM`. Paste the above Jenkins file into it
+Click `Save`
 
 Click `Build Now` after creating the job. This will take awhile. You can monitor the progress by going to the build output.
 
@@ -1138,6 +1152,12 @@ docker run --rm -e SONAR_HOST_URL=http://192.168.16.128:9000 -e SONAR_LOGIN=2742
 ```
 
 # Lab X10
+
+## Download docker-compose
+
+```bash
+sudo apt install docker-compose
+```
 
 ## Compose file
 
@@ -1174,6 +1194,8 @@ services:
     ports:
       - "8000:80"
 ```
+
+
 
 ### Starting the service(s)
 
