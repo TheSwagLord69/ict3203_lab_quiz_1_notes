@@ -1156,7 +1156,9 @@ docker run --rm -e SONAR_HOST_URL=http://192.168.16.128:9000 -e SONAR_LOGIN=2742
 ## Download docker-compose
 
 ```bash
-sudo apt install docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/bin/docker-compose
+sudo chmod +x /usr/bin/docker-compose
+docker-compose --version
 ```
 
 ## Compose file
