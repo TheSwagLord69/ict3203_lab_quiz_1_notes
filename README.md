@@ -1194,7 +1194,7 @@ services:
     image: nginx:alpine
     container_name: nginxwebsvr
     ports:
-      - "8000:80"
+      - "80:80"
 ```
 
 
@@ -1213,7 +1213,7 @@ docker ps --all
 
 ### Accessing the service
 
-Visit the URL `http://localhost:8080/`.
+Visit the URL `http://localhost:80/`.
 
 
 ## Adding the MySQL service
@@ -1228,7 +1228,7 @@ services:
     image: nginx:alpine
     container_name: nginxwebsvr
     ports:
-      - "8000:80"
+      - "80:80"
   mysqldb:
     image: mysql:5.7
     container_name: mysqlsvr
@@ -1293,7 +1293,7 @@ services:
     image: nginx:alpine
     container_name: nginxwebsvr
     ports:
-      - "8000:80"
+      - "80:80"
   mysqldb:
     image: mysql:5.7
     container_name: mysqlsvr
