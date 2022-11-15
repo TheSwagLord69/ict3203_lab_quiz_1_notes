@@ -943,7 +943,7 @@ Enter `Maven` for the `Name`, uncheck `Install automatically`, enter the path fo
 
 Use either `Lab X05` or `Lab X06` to create the job but we will be using `Pipeline script` instead of `Pipeline script from SCM`. Paste the below Jenkins file into it
 
-## The Jenkinsfile
+## Paste the Jenkinsfile
 
 ```
 pipeline {
