@@ -255,6 +255,14 @@ Select `Git` as the `SCM` and input `/home/simple-node-js-react-npm-app` as the 
 
 Now that you have the repo, we can create our Jenkinsfile.
 
+```bash
+cd simple-node-js-react-npm-app/
+```
+
+```bash
+touch Jenkinsfile
+```
+
 Add the content below into a new file with the name `Jenkinsfile` at the root directory of the repository.
 
 ```
