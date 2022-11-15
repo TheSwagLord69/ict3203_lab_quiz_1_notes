@@ -1268,6 +1268,10 @@ docker exec -it mysqlsvr sh -c 'mysql -u root -p'
 mkdir ./repos/
 ```
 
+```bash
+touch git1.Dockerfile
+```
+
 Paste the content below into `git1.Dockerfile`
 
 ```
