@@ -74,10 +74,9 @@ sudo docker run hello-world
 sudo usermod -aG docker $USER
 ```
 
-You may get an error 'Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/networks/create": dial unix /var/run/docker.sock: connect: permission denied'
-This is because the machine has not been restarted.
-
 Now, restart the machine
+
+If you do not restart, you may get an error 'Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/networks/create": dial unix /var/run/docker.sock: connect: permission denied'
 
 # Lab X05
 
