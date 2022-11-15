@@ -1024,7 +1024,7 @@ docker network connect jenkins sonarqube
 docker network inspect jenkins
 ```
 
-Access the webpage at `http://localhost:9000`. This might take awhile.
+Access the SonarQube webpage at `http://localhost:9000`. This might take a while.
 
 ## Login
 
