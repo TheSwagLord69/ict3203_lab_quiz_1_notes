@@ -110,7 +110,7 @@ docker run \
 
 ## Creating Dockerfile for BlueOcean and building it
 
-Enter `Ctrl+C` after you have pasted it
+Enter <kbd>Ctrl</kbd>+<kbd>C</kbd> after you have pasted it
 
 ```bash
 cd ~/
