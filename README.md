@@ -980,6 +980,8 @@ pipeline {
 
 ## Build the new job on Jenkins
 
+Click `Save`
+
 Click `Build Now` after creating the job. This will take a long while. You can monitor the progress by going to the build output.
 
 After the build is completed, click on `Status`.
