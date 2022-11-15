@@ -939,7 +939,11 @@ Scroll down to find the section `Maven` (not Maven Configuration) and click `Add
 
 Enter `Maven` for the `Name`, uncheck `Install automatically`, enter the path for `MAVEN_HOME` as `/var/jenkins_home/apache-maven-3.6.3` and hit `Save`.
 
-## Creating the Jenkinsfile
+## Create the new job on Jenkins
+
+Use either `Lab X05` or `Lab X06` to create the job but we will be using `Pipeline script` instead of `Pipeline script from SCM`. Paste the below Jenkins file into it
+
+## The Jenkinsfile
 
 ```
 pipeline {
@@ -974,9 +978,7 @@ pipeline {
 }
 ```
 
-## Create the new job on Jenkins
-
-Use either `Lab X05` or `Lab X06` to create the job but we will be using `Pipeline script` instead of `Pipeline script from SCM`. Paste the above Jenkins file into it
+## Build the new job on Jenkins
 
 Click `Build Now` after creating the job. This will take a long while. You can monitor the progress by going to the build output.
 
