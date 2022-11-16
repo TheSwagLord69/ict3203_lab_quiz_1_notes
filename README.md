@@ -1074,7 +1074,7 @@ Now head back to Jenkins.
 
 From `Dashboard`, click `Manage Jenkins` on the menu located on the left of the page.
 
-Under `Security` section, click on `Manager Credentials`.
+Under `Security` section, click on `Manage Credentials`.
 
 Hover over `(global)`, and click `Add credentials`.
 
