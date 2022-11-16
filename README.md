@@ -8,6 +8,11 @@ This guide assumes:
 5. The user running all these commands belongs to the docker group (can run docker without sudo)
 7. The result just has to be satisfactory. Any hacks used will be tolerated.
 
+# If using Windows
+The environment variables like $HOME will be switched to %HOMEDRIVE%%HOMEPATH% and \ characters that was used for new line will be replaced with ^.
+
+For more detailed use case, please refer https://www.jenkins.io/doc/tutorials/build-a-node-js-and-react-app-with-npm/
+
 # Installing Docker
 
 Adapted from : `https://docs.docker.com/engine/install/ubuntu/`
