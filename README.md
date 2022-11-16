@@ -733,7 +733,7 @@ public function turnWheel() {
 After doing so, remember to commit it by running:
 ```bash
 git add .
-git commit -m "Enhanced Jenkinsfile"
+git commit -m "Added Errors"
 ```
 
 Click `Build Now` after making the commit.
